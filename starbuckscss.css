@@ -1,0 +1,474 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.instruction {
+  
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(15, 85, 66);
+  height: 85px;
+  font-size: larger;
+  margin-bottom: 30px;
+  
+
+}
+
+
+.know-more {
+  position: absolute;
+  right: 150px;
+  font-size: small;
+  font-weight: 600;
+  border: 1px solid white;
+  width: 95px;
+  height: 23px;
+  border-radius: 18px;
+  text-align: center;
+  padding-top: 5px;
+
+  }
+
+.initial-signup-instruction {
+  position: absolute;
+  left: 125px;
+
+
+}
+
+
+.categories img{
+height: 110px;
+border-radius: 55px; 
+}
+.categories{
+  font-size: small;
+  font-weight: 600;
+ margin-left: 40px;
+ margin-right: 60px;
+  padding-left: 20px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.categories img:hover{
+  border: 2px solid  #0c6b3f;
+  filter: blur(100%);
+  height: 106px;
+
+}
+.categories figcaption{
+  padding-top: 6px;
+  text-align: center;
+}
+.main-body{
+margin-top: 70px;
+position: relative;
+}
+.handcraft{
+  color:rgb(12, 54, 43) ;
+}
+  .ad-img{
+    height: 200px;
+  position: absolute;
+  bottom: 5px;
+ }
+ .rightarrow{
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  top: 105px;
+  right: -20px;
+  background-color: rgb(235, 225, 225);
+  box-shadow: 0 10px 16px 3px rgba(0,0,0,0.4);
+ }
+ .rightarrow img{
+  margin-left: 4px;
+  margin-top: 5px;
+  object-fit: contain;
+  width: 28px;
+  height: 28px;
+ 
+ }
+ 
+ .leftarrow{
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  opacity: .4;
+  background-color: rgb(228, 224, 224);
+  position: absolute;
+  top: 105px;
+  left: -20px;
+  box-shadow: 0 10px 16px 3px rgba(0,0,0,0.2);
+  
+ }
+ .leftarrow img{
+  margin-left: 4px;
+  margin-top: 5px;
+  object-fit: contain;
+  width: 28px;
+  height: 28px;
+  z-index: 1;
+ }
+ 
+
+  .slides{
+    margin-top: 100px;
+    background-color: #0c6b3f;
+    height: 220px;
+    border-radius: 6px;
+    width: 1100px;
+    position: relative;
+   margin-left: 120px;
+   position: relative;
+  
+  }
+
+  .slides p{
+    display: flex;
+    flex-direction: column;
+  color: white;
+ margin-left: 150px;
+ width: 630px;
+
+}
+.know{
+ position: absolute;
+ bottom:25px ;
+ right: 50px;
+ 
+}
+.know button{
+height: 50px;
+width:200px ;
+border-radius: 30px;
+border: none;
+font-size: small;
+font-weight: 600;
+}
+
+
+.barista-recommendations{
+ background-color: #d8dce0;
+  height: 315px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 80px;
+  position: relative;
+  
+}
+ .sub-title{
+  font-weight: 800;
+  position: absolute;
+  margin-left:110px ;
+  margin-top: 35px;
+  color:rgb(12, 54, 43) ;
+ }
+.card-slider{
+  display: flex;
+  position: absolute;
+  top: 95px;
+  height: 160px;
+  padding-left: 120px;
+  position: relative;
+}
+.card-slider .rightarrow{
+  position: absolute;
+  right: 120px;
+  top: 72px;
+}
+.card-slider .leftarrow{
+  position: absolute;
+  top: 72px;
+  left: 100px;
+}
+.card{
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  margin-right: 20px;
+
+}
+.food-items{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  border-radius: 10px;
+
+}
+.card button{
+  position: absolute;
+  right: 23px;
+  bottom: 18px;
+   width: 95px;
+   height: 30px;
+   border-radius: 15px;
+   border: none;
+   background-color:#198754;
+   color: white;
+}
+.card button:hover,
+.agra-text Button:hover{
+  cursor: pointer;
+   background-color: #0d3429;
+}
+.red{
+  position: absolute;
+  width: 18px;
+  top: 20px;
+  left: 118px;
+}
+.food-names{
+  position: absolute;
+  left: 120px;
+  top: 25px;
+  font-size: small;
+  font-weight: 800;
+}
+.per-serve{
+  position: absolute;
+  top: 60px;
+  left: 120px;
+  font-size: xx-small;
+  opacity: .8;
+
+}
+.food-rate{
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+  font-weight: 600;
+}
+.coffee-culture{
+  background-color:#e1e2e4;;
+  margin-top: 40px;
+  height: 500px;
+  margin-right: -10px;
+  position: relative;
+  margin-left: -25px;
+  
+}
+.sub-title-2{
+  font-weight: 800;
+  margin-left: 140px;
+  position: absolute;
+  top: 10px;
+  color:rgb(12, 54, 43) ;
+}
+.big-logo{
+  position: absolute;
+  top: 90px;
+  left: 150px;
+  bottom: 30px;
+  right: 140px;
+  border-radius: 6px;
+  position: relative;
+ 
+
+}
+.big-logo img{
+  width:1100px ;
+  height: 380px;
+  border-radius: 6px;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: .015s;
+  
+ 
+
+}
+.big-logo:hover{
+
+  cursor: pointer;
+  filter: brightness(70%);
+  
+}
+.coffee-culture-button{
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  width: 80px;
+  height: 20px;
+  background-color:#e1e2e4;
+  font-size: xx-small;
+  border-radius: 25px;
+  color: rgb(15, 184, 15);
+  border: none;
+}
+.big-logo p{
+  position: absolute;
+  left: 33px;  
+  color: white;                  
+}
+.learn-more{
+  position: absolute;
+  left: 33px;
+  top: 308px;
+  width: 200px;
+  height: 32px;
+  border-radius: 15px;
+  border: none;
+}
+.ad-text{
+  margin-left: 110px;
+   margin-top: 45px;
+   color:rgb(12, 54, 43) ;
+}
+.extra-ad{
+ margin-top: 40px;
+margin-left: 800px;
+color:rgb(23, 95, 76) ;
+}
+.text-div{
+  display: flex;
+  flex-direction: row;
+  vertical-align: text-top;
+}
+.agra{
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 165px;
+  margin-top: 20px;
+ 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+ 
+  
+} 
+.agra img{
+  object-fit: fill;
+  width: 350px;
+  height: 165px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.agra-container{
+  margin-left: 125px;
+  width: 350px;
+  height: 365px;
+  box-shadow: 0 10px 16px 3px rgba(0,0,0,0.2);
+  transition: .3s;
+  border-radius: 8px;
+}
+
+
+.gradient{
+position: absolute;
+height: 100%;
+width: 100%;
+background-image: linear-gradient( to top,
+white,rgba(255, 255, 255,0));
+opacity: .99;
+
+
+}
+.agra-text{
+  width:322px ;
+  height: 186px;
+  margin-top: -1px;
+  padding-top: 15px;
+  padding-left: 28px;
+  
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ background-color: #fafafa;}
+.agra-text p{
+  width: 250px;
+  font-size: small;
+  font-weight: 700;
+}
+.agra-text button{
+  margin-top: 40px;
+  width: 120px;
+  height: 32px;
+  text-align: center;
+  background-color:#198754;
+  border-radius: 18px;
+  border: none;
+  color: white;
+
+}
+
+.footer{
+  height: 480px;
+  margin-top: 70px;
+  background-color: #0d3429;
+  position: relative;
+}
+.footer-details{
+  position: absolute;
+  display: flex;
+  top: 40px;
+ flex-direction: row;
+ height: 330px;
+ margin-left: 120px;
+ margin-right: 120px;
+ position: relative;
+}
+.footer-details div{
+  justify-content: space-between;
+ color: white;
+  height: 300px;
+  width: 210px;
+  margin: 5px;
+
+}
+.footer-details p{
+  margin-top: 33px;
+}
+.logo,
+.op-image{
+  padding-top: 20px;
+}
+.underline {
+  height: 65px;
+  width: 1100px;
+  margin-left: 120px;
+  margin-top: 75px;
+ border-top: 1px;
+ border-top-color: rgba(255,255,255,0.6);
+ border-top-style: solid;
+
+}
+.underline button{
+  background-color: #0d3429;
+border-bottom: none;
+border-left: none;
+border-top: none;
+  border-color: white;
+  color: white;
+  margin-top: 20px;
+}
+.footer p:hover,
+.underline button:hover{
+  cursor: pointer;
+  opacity: .4;
+}
+
+
+.know button:hover,
+.card:hover,
+.slides:hover,
+.instruction:hover,
+.rightarrow:hover,
+.learn-more:hover,
+.coffee-culture-button:hover,
+.agra-container:hover,
+.footer-details div:hover
+{
+  cursor: pointer;
+}
+
+

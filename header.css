@@ -1,0 +1,83 @@
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-color: rgb(209, 199, 199);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  z-index: 100;
+  position: relative;
+  position: fixed;
+  background-color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+   margin-left: 135px;
+  
+}
+
+.left-section button {
+  border: none;
+  background-color: white;
+  width: 40px;
+  margin-left: 60px;
+  font-size: medium;
+  color: rgb(100, 97, 97);
+}
+
+.left-section button:hover{
+  cursor: pointer;
+}
+
+
+.starbucks-logo {
+  height: 40px;
+}
+.starbucks-logo:hover{
+  cursor:pointer
+}
+
+.search-box {
+  position: absolute;
+  padding-left: 38px;
+  right: 245px;
+  top: 18px;
+  width: 230px;
+  height: 30px;
+  border-radius: 20px;
+  background-image: url(https://www.starbucks.in/assets/icon/search.svg);
+  background-repeat: no-repeat;
+  background-position: 12px;
+  border: solid 1px rgb(216, 208, 208);
+  opacity: .8;
+  box-shadow: 1px 1px rgb(207, 205, 205);
+}
+
+.account {
+  position: absolute;
+  right: 100px;
+  padding-top: 12px;
+
+}
+.account:hover{
+  cursor: pointer;
+}
+/* .homebutton{
+  text-align: left;
+  width: 55px;
+  height: 40px;
+  border-bottom-color: black;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  background-color: black;
+
+} */
